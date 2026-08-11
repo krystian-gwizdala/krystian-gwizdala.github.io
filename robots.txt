@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://krystian-gwizdala.github.io/sitemap.xml
