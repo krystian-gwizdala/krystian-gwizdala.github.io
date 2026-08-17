@@ -1,0 +1,34 @@
+# Krystian Gwizdala
+
+> AI engineer and full-stack developer based in Krakow, Poland. Ten years of shipping web products end to end, now building AI agents, Claude API and MCP integrations, multi-agent systems and workflow automation.
+
+Available for work on AI agent systems, MCP server design and TypeScript/Node product engineering. Contact: gwizdala.kr@gmail.com
+
+## Open-source and MCP servers
+
+- [Meet Live Assist](https://meet-live-assist.github.io/): Chrome extension plus local MCP server that turns a Google Meet or Zoom call into a live AI assistant. Reads the transcript, answers in a side panel, keeps the stored record on the user's own machine. [Source](https://github.com/krystiangw/meet-live-assist-extension), [Chrome Web Store](https://chromewebstore.google.com/detail/meet-live-assist/elhddnpchalnmgcgdicegfggifojbadk), [npm](https://www.npmjs.com/package/meet-live-assist-server)
+- [agenticpay](https://krystiangw.github.io/agenticpay/): MCP-native pay-per-tool-call micropayments for AI agents. Price any tool, agents pay in USDC over x402, settled on Solana. SDK, CLI, paywall middleware and a self-hosted x402 facilitator, all TypeScript, MIT. [Source](https://github.com/krystiangw/agenticpay), [npm](https://www.npmjs.com/package/@agenticpay/mcp-bridge)
+- [zen-mcp](https://krystiangw.github.io/zen-mcp/): Unofficial MCP server for the ZEN.com payment gateway. Hosted payment links, transaction lookup, refunds, payouts, reporting, local IPN signature verification. [Source](https://github.com/krystiangw/zen-mcp), [npm](https://www.npmjs.com/package/@krystiangw/zen-mcp)
+- [ckeditor-mcp](https://github.com/krystiangw/ckeditor-mcp): MCP server that lets any agent drive a genuine headless CKEditor 5 through Playwright: read and set content, run editor commands, take screenshots.
+- [ckeditor-integration-mcp](https://github.com/krystiangw/ckeditor-integration-mcp): Build-time MCP server that validates and scaffolds CKEditor 5 integrations, catching the v44+ licensing and bundling mistakes stale model knowledge produces.
+- [ClaimDesk](https://github.com/krystiangw/ckeditor-agent-demo): Governed AI editing demo. An agent drafts insurance correspondence and every agent edit lands as a Track Changes suggestion a human must accept or reject.
+- [elevenlabs-voice-mcp](https://github.com/krystiangw/elevenlabs-voice-mcp): MCP server giving Claude a voice through the ElevenLabs text-to-speech API. Multilingual, Polish included.
+
+## Products
+
+- [Let Agents In](https://letagentsin.com/): Agent-readiness audits. Measures whether an AI coding agent can find, register with and integrate a product, using deterministic checks and a published, reproducible scoring formula.
+
+## Profiles
+
+- [Portfolio](https://krystian-gwizdala.github.io/): Full CV, experience and project list.
+- [GitHub](https://github.com/krystiangw): 49 public repositories.
+- [LinkedIn](https://www.linkedin.com/in/krystiangw)
+- [MCP registry](https://registry.modelcontextprotocol.io/v0/servers?search=krystiangw): Published Model Context Protocol servers.
+
+## Experience
+
+- TestGorilla, senior frontend developer, January 2023 to present. Hiring and talent assessment platform. Angular/TypeScript at scale, AI interviews in candidate screening.
+- Cisco, fullstack JavaScript developer, February 2016 to April 2026. Node.js/Express services, Oracle SQL, Redis, WebSockets, data-heavy Angular applications.
+- Xtrades, senior frontend developer, January 2022 to January 2023. Angular, Ionic, NgRx, RxJS.
+- HTD Health, fullstack JavaScript developer, September 2018 to January 2022. Node.js, AWS Lambda, MySQL, TypeORM, Angular and Ionic products.
+- Filestack (formerly Filepicker), software engineer, March 2014 to February 2016. File upload and delivery APIs, AngularJS SPA, AWS.
