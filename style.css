@@ -290,6 +290,31 @@ ul.bullets li::before {
   font-weight: 700;
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 8px 0 0;
+  font-size: 12px;
+}
+
+.links a::before {
+  content: "[";
+  color: var(--muted);
+  margin-right: 2px;
+}
+
+.links a::after {
+  content: "]";
+  color: var(--muted);
+  margin-left: 2px;
+}
+
+.links a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
 /* footer */
 .foot {
   margin-top: 32px;
