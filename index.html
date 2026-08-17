@@ -6,7 +6,7 @@
   <title>Krystian Gwizdala — AI Engineer & Full-Stack Developer · Claude · MCP · TypeScript / React</title>
   <meta name="description" content="Krystian Gwizdala, AI engineer and full-stack developer in Krakow. 10+ years shipping web products, now building AI agents, Claude API and MCP integrations." />
   <meta name="author" content="Krystian Gwizdala" />
-  <meta name="keywords" content="Krystian Gwizdala, AI engineer, software engineer, fullstack developer, frontend developer, Claude, Claude Code, MCP, Model Context Protocol, MCP server, AI agents, multi-agent, RAG, workflow automation, TypeScript, React, Angular, Node.js, Python, RxJS, NgRx, blockchain, Krakow, Poland, portfolio, open source, Meet Live Assist, agenticpay, x402, zen-mcp, ckeditor-mcp, Let Agents In" />
+  <meta name="keywords" content="Krystian Gwizdala, AI engineer, software engineer, fullstack developer, frontend developer, Claude, Claude Code, MCP, Model Context Protocol, MCP server, AI agents, multi-agent, RAG, workflow automation, TypeScript, React, Angular, Node.js, Python, RxJS, NgRx, blockchain, Krakow, Poland, portfolio, open source, Muster, Meet Live Assist, agenticpay, x402, zen-mcp, ckeditor-mcp, Let Agents In" />
   <link rel="canonical" href="https://krystian-gwizdala.github.io/" />
   <meta name="google-site-verification" content="AivhVutlgdzwPhOT26aWe5RxRWJp5YqixFXJ6ie48nM" />
   <meta name="robots" content="index, follow" />
@@ -86,116 +86,156 @@
     "name": "Open-source projects and MCP servers by Krystian Gwizdala",
     "itemListOrder": "https://schema.org/ItemListOrderAscending",
     "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "Meet Live Assist",
-          "description": "Chrome extension and local MCP server that turns a Google Meet or Zoom call into a live AI assistant: reads the transcript and answers in a side panel, with all data kept on the user's machine.",
-          "applicationCategory": "BrowserApplication",
-          "operatingSystem": "Chrome",
-          "url": "https://meet-live-assist.github.io/",
-          "downloadUrl": "https://chromewebstore.google.com/detail/meet-live-assist/elhddnpchalnmgcgdicegfggifojbadk",
-          "codeRepository": "https://github.com/krystiangw/meet-live-assist-extension",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebApplication",
+            "name": "Muster",
+            "description": "Shared operational memory for long-lived agents: who is on duty, who owns what, what went stale and what needs a human. Claims expire, untouched items go stale, and agents sign up and integrate with no person in the loop.",
+            "applicationCategory": "DeveloperApplication",
+            "url": "https://musterboard.dev/",
+            "codeRepository": "https://github.com/krystiangw/muster",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Meet Live Assist",
+            "description": "Chrome extension and local MCP server that turns a Google Meet or Zoom call into a live AI assistant: reads the transcript and answers in a side panel, with all data kept on the user's machine.",
+            "applicationCategory": "BrowserApplication",
+            "operatingSystem": "Chrome",
+            "url": "https://meet-live-assist.github.io/",
+            "downloadUrl": "https://chromewebstore.google.com/detail/meet-live-assist/elhddnpchalnmgcgdicegfggifojbadk",
+            "codeRepository": "https://github.com/krystiangw/meet-live-assist-extension",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "agenticpay",
+            "description": "MCP-native pay-per-tool-call micropayments for AI agents: price any tool, agents pay in USDC over x402, settled on Solana. SDK, CLI, paywall middleware and a self-hosted facilitator.",
+            "programmingLanguage": "TypeScript",
+            "license": "https://opensource.org/licenses/MIT",
+            "url": "https://krystiangw.github.io/agenticpay/",
+            "codeRepository": "https://github.com/krystiangw/agenticpay",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "WebSite",
+            "name": "Let Agents In",
+            "description": "Agent-readiness audits: measures whether an AI coding agent can find, register with and integrate a product, using deterministic checks and a published, reproducible scoring formula.",
+            "url": "https://letagentsin.com/",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "zen-mcp",
+            "description": "Unofficial MCP server for the ZEN.com Payment Gateway: hosted payment links, transaction lookup, refunds, payouts, reporting and local IPN signature verification.",
+            "programmingLanguage": "TypeScript",
+            "license": "https://opensource.org/licenses/MIT",
+            "url": "https://zenmcp.github.io/",
+            "codeRepository": "https://github.com/krystiangw/zen-mcp",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ckeditor-mcp",
+            "description": "MCP server that lets any AI agent operate a real headless CKEditor 5 instance over Playwright: read and set content, run editor commands, take screenshots.",
+            "programmingLanguage": "TypeScript",
+            "license": "https://opensource.org/licenses/MIT",
+            "codeRepository": "https://github.com/krystiangw/ckeditor-mcp",
+            "url": "https://github.com/krystiangw/ckeditor-mcp",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ckeditor-integration-mcp",
+            "description": "Build-time MCP server that helps coding agents integrate CKEditor 5 correctly: validates setups, scaffolds integrations and catches v44+ licensing and bundling mistakes.",
+            "programmingLanguage": "TypeScript",
+            "license": "https://opensource.org/licenses/MIT",
+            "codeRepository": "https://github.com/krystiangw/ckeditor-integration-mcp",
+            "url": "https://github.com/krystiangw/ckeditor-integration-mcp",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "ClaimDesk (ckeditor-agent-demo)",
+            "description": "Governed AI editing demo: an agent drafts insurance correspondence in CKEditor 5 and every agent edit lands as a Track Changes suggestion a human must accept or reject.",
+            "programmingLanguage": "JavaScript",
+            "license": "https://opensource.org/licenses/MIT",
+            "codeRepository": "https://github.com/krystiangw/ckeditor-agent-demo",
+            "url": "https://github.com/krystiangw/ckeditor-agent-demo",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "elevenlabs-voice-mcp",
+            "description": "MCP server that gives Claude a voice through the ElevenLabs text-to-speech API: list voices, synthesise speech and play it back, multilingual by default.",
+            "programmingLanguage": "TypeScript",
+            "codeRepository": "https://github.com/krystiangw/elevenlabs-voice-mcp",
+            "url": "https://github.com/krystiangw/elevenlabs-voice-mcp",
+            "author": {
+              "@type": "Person",
+              "name": "Krystian Gwizdala"
+            }
+          }
         }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "agenticpay",
-          "description": "MCP-native pay-per-tool-call micropayments for AI agents: price any tool, agents pay in USDC over x402, settled on Solana. SDK, CLI, paywall middleware and a self-hosted facilitator.",
-          "programmingLanguage": "TypeScript",
-          "license": "https://opensource.org/licenses/MIT",
-          "url": "https://krystiangw.github.io/agenticpay/",
-          "codeRepository": "https://github.com/krystiangw/agenticpay",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "WebSite",
-          "name": "Let Agents In",
-          "description": "Agent-readiness audits: measures whether an AI coding agent can find, register with and integrate a product, using deterministic checks and a published, reproducible scoring formula.",
-          "url": "https://letagentsin.com/",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "zen-mcp",
-          "description": "Unofficial MCP server for the ZEN.com Payment Gateway: hosted payment links, transaction lookup, refunds, payouts, reporting and local IPN signature verification.",
-          "programmingLanguage": "TypeScript",
-          "license": "https://opensource.org/licenses/MIT",
-          "url": "https://zenmcp.github.io/",
-          "codeRepository": "https://github.com/krystiangw/zen-mcp",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "ckeditor-mcp",
-          "description": "MCP server that lets any AI agent operate a real headless CKEditor 5 instance over Playwright: read and set content, run editor commands, take screenshots.",
-          "programmingLanguage": "TypeScript",
-          "license": "https://opensource.org/licenses/MIT",
-          "codeRepository": "https://github.com/krystiangw/ckeditor-mcp",
-          "url": "https://github.com/krystiangw/ckeditor-mcp",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "ckeditor-integration-mcp",
-          "description": "Build-time MCP server that helps coding agents integrate CKEditor 5 correctly: validates setups, scaffolds integrations and catches v44+ licensing and bundling mistakes.",
-          "programmingLanguage": "TypeScript",
-          "license": "https://opensource.org/licenses/MIT",
-          "codeRepository": "https://github.com/krystiangw/ckeditor-integration-mcp",
-          "url": "https://github.com/krystiangw/ckeditor-integration-mcp",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "ClaimDesk (ckeditor-agent-demo)",
-          "description": "Governed AI editing demo: an agent drafts insurance correspondence in CKEditor 5 and every agent edit lands as a Track Changes suggestion a human must accept or reject.",
-          "programmingLanguage": "JavaScript",
-          "license": "https://opensource.org/licenses/MIT",
-          "codeRepository": "https://github.com/krystiangw/ckeditor-agent-demo",
-          "url": "https://github.com/krystiangw/ckeditor-agent-demo",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "item": {
-          "@type": "SoftwareSourceCode",
-          "name": "elevenlabs-voice-mcp",
-          "description": "MCP server that gives Claude a voice through the ElevenLabs text-to-speech API: list voices, synthesise speech and play it back, multilingual by default.",
-          "programmingLanguage": "TypeScript",
-          "codeRepository": "https://github.com/krystiangw/elevenlabs-voice-mcp",
-          "url": "https://github.com/krystiangw/elevenlabs-voice-mcp",
-          "author": { "@type": "Person", "name": "Krystian Gwizdala" }
-        }
-      }
-    ]
+      ]
   }
   </script>
 </head>
@@ -434,6 +474,24 @@
         <div class="block">
           <h2>// open-source &amp; mcp servers</h2>
           <p class="desc">Shipped publicly in the last 12 months. Everything below is live: source, package, or a running site.</p>
+
+          <article class="job">
+            <header>
+              <h3><a href="https://musterboard.dev/" target="_blank" rel="noopener">Muster</a></h3>
+              <span class="when">2026 · agents · live service</span>
+            </header>
+            <p class="role">shared operational memory for long-lived agents</p>
+            <ul class="bullets">
+              <li>Keeps a board honest when the only writers are agents with no memory between sessions: claims expire so a crashed run stops blocking an item, untouched items go stale, undescribed placeholders get dropped.</li>
+              <li>Agents onboard themselves: one <span class="hl">POST</span> returns a project, a token and a read URL for the human, and <span class="hl">skill.md</span> teaches the agent the rest. No person in the loop.</li>
+              <li>Every automatic change lands as a signed timeline entry that does not count as activity, and one operator page queues everything waiting on a human across all projects.</li>
+            </ul>
+            <p class="links">
+              <a href="https://musterboard.dev/" target="_blank" rel="noopener">musterboard.dev</a>
+              <a href="https://musterboard.dev/skill.md" target="_blank" rel="noopener">skill.md</a>
+              <a href="https://github.com/krystiangw/muster" target="_blank" rel="noopener">github</a>
+            </p>
+          </article>
 
           <article class="job">
             <header>
