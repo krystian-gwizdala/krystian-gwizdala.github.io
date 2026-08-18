@@ -17,6 +17,7 @@ Available for work on AI agent systems, MCP server design and TypeScript/Node pr
 
 ## Products
 
+- [Agent Rynku](https://agentrynku.pl/): AI equity analyst for the Warsaw Stock Exchange (GPW), in Polish. Reads and grades every ESPI/EBI regulatory filing within minutes of publication, alongside broker reports and forum sentiment; per-asset scoring across six dimensions, 12-month forecasts and an evaluator that re-checks open signals. Its data layer is exposed as an MCP server driving the in-product chat, a Telegram companion and user-connected clients; the [public tool catalogue](https://agentrynku.pl/mcp) is generated from the live registry. Commercial product, source not public.
 - [Let Agents In](https://letagentsin.com/): Agent-readiness audits. Measures whether an AI coding agent can find, register with and integrate a product, using deterministic checks and a published, reproducible scoring formula.
 
 ## Profiles
